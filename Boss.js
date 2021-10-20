@@ -17,7 +17,6 @@ class Boss extends Opponent{
     }
 
     collide(){
-        this.image.src = this.myImageDead
-        this.game.endGame();
+        super.collide();
     }
 }

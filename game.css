@@ -1,6 +1,11 @@
 html {
   overflow: hidden;
 }
+#scoreli, #livesli{
+	color: aliceblue;
+	font-size: xx-large
+}
+
 
 .Opponent {
 	animation: rotation 3s infinite linear;
@@ -32,3 +37,4 @@ html {
 	font-family: monospace;
 	cursor: pointer;
 }
+
