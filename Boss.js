@@ -13,6 +13,11 @@ class Boss extends Opponent{
         this.image.src = myImage;
         this.myImageDead = myImageDead;
         setTimeout(() =>
-        this.shoot(),)
+        this.shoot(), 10 + getRandomNumber(2500));
+    }
+
+    collide(){
+        this.image.src = this.myImageDead
+        this.game.endGame();
     }
 }
