@@ -12,8 +12,7 @@ class Boss extends Opponent{
         this.speed = speed;
         this.image.src = myImage;
         this.myImageDead = myImageDead;
-        setTimeout(() =>
-        this.shoot(), 10 + getRandomNumber(2500));
+        setTimeout(() => this.shoot(), 10 + getRandomNumber(2500));
     }
 
     collide(){
